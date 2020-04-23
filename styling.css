@@ -4,10 +4,13 @@
 	box-sizing: border-box;
 }
 .navbar {
-  overflow: hidden;
+  
   font-family: Ink Free;
   text-align: center;
   background-color: brown;
+  position: fixed;
+  top:0;
+  width: 100%
 }
 
 #home {
@@ -46,6 +49,7 @@ body {
   background-color: grey;
   background: url("chair-cutlery-diner-dining-941861.jpg") no-repeat;
   background-size: cover;
+  height: 100%;
 }
 
 .dropdown-content {
@@ -94,3 +98,61 @@ body {
 	padding: 2%;
 	border-radius: 15px;
 }
+
+#entrie1 ,#entrie2 ,#entrie3{
+  position: relative;
+  font-size: 20px;
+  color: white;
+  float: left;
+  border: 5px solid transparent;
+  background-color: brown;
+  margin-left: 5%;
+  margin-top: 1%;
+  width: 35%;
+  margin-bottom: 4%;
+  border-radius: 15px;
+}
+
+#choice1 {
+    font-size: 50px;
+  color: white;
+  text-align: center;
+  border: 5px solid transparent;
+  background-color: brown;
+  margin: auto;
+  margin-top: 25%;
+  width: 70%;
+  
+  border-radius: 15px;
+  background-color: none;
+}
+
+.price {
+  margin-right: 5%;
+  text-align: right;
+  display: inline;
+  float: right;
+}
+
+#tomato {
+  width:200px;
+  border-radius: 15%;  
+  float: left;  
+  margin-left: 15%;
+  margin-top: 1%;
+}
+
+.dishes {
+  white-space: nowrap;
+  
+}
+
+.name {
+  text-align: center;
+  display: inline;
+  margin-left: 35%;
+  
+}
+
+
+
