@@ -3,31 +3,45 @@
 <head>
 	<meta charset="UTF-8">
   	<link rel="stylesheet" href="styling.css">
-  	<script  src="jquery-3.5.0.min.js"></script>
+  	<script  src='https://code.jquery.com/jquery-2.2.4.js'></script>
   	<script src="main.js"></script>
 	<title>the restaurant</title>
 </head>
 <body>
-	<div class="navigation">
-		<div class="drinks">
-  		<li id ="items"><a href="default.asp">Home</a></li>
-  		<li id="items"><a href="news.asp">News</a></li>
-  		<li id="items"><a href="contact.asp">Contact</a></li>
-  		<li id="items"><a href="about.asp">About</a></li>
-		</div>
-		<div class="fastfood">
-  		<li id ="items"><a href="default.asp">Home</a></li>
-  		<li class="items"><a href="news.asp">News</a></li>
-  		<li class="items"><a href="contact.asp">Contact</a></li>
-  		<li class="items"><a href="about.asp">About</a></li>
-		</div>
-		<div class="deserts">
-  		<li class ="items"><a href="default.asp">Home</a></li>
-  		<li class="items"><a href="news.asp">News</a></li>
-  		<li class="items"><a href="contact.asp">Contact</a></li>
-  		<li class="items"><a href="about.asp">About</a></li>
-		</div>
-	</div>
+
+  <div class="navbar">
+  <a id='home' href="#home">Home</a>
+  <div class="Menu">
+    <button class="dropbtn">Drinks
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+    <div class="Menu">
+    <button class="dropbtn">Fast Food
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+    <div class="Menu">
+    <button class="dropbtn">Desert
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
