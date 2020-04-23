@@ -1,6 +1,13 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 .navbar {
   overflow: hidden;
-  font-family: Arial;
+  font-family: Ink Free;
+  text-align: center;
+  background-color: brown;
 }
 
 #home {
@@ -8,22 +15,27 @@
   font-size: 16px;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
 }
 
 .Menu {
   float: left;
   overflow: hidden;
   font-color: blue;
+
 }
 
 .Menu .dropbtn {
-    font-size: 16px;
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
   padding: 14px 16px;
   background-color: inherit;
+  font-family: Ink Free;
 }
 
 .navbar #home:hover, .Menu:hover .dropbtn {
@@ -32,6 +44,8 @@
 
 body {
   background-color: grey;
+  background: url("chair-cutlery-diner-dining-941861.jpg") no-repeat;
+  background-size: cover;
 }
 
 .dropdown-content {
@@ -58,4 +72,25 @@ body {
 
 .dropdown-content a:hover {
   background-color: red;
+}
+
+#intro{
+	color: white;
+	font-size: 72px;
+	font-family: Ink Free;
+	text-align: center;
+	margin-top: 7%;
+}
+
+#ourWords{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	border: 5px solid transparent;
+	background-color: brown;
+ 	margin: auto;
+ 	margin-top: 1%;
+	width: 80%;
+	padding: 2%;
+	border-radius: 15px;
 }
