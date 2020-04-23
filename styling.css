@@ -1,52 +1,61 @@
-.navigation {
-	text-align: center;
-	
-
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
 }
 
-li {
-	float: left;
-	list-style: none;
-	display: inline;
+#home {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-a {
-	display: block;
-  	padding: 8px;
-  	background-color: #dddddd;
+.Menu {
+  float: left;
+  overflow: hidden;
+  font-color: blue;
 }
 
-.drinks{
-	position: relative;
-  	display: inline-block;
+.Menu .dropbtn {
+    font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
 }
-.fastfood{
-	position: relative;
-  	display: inline-block;
+
+.navbar #home:hover, .Menu:hover .dropbtn {
+  background-color: blue;
 }
-.deserts{
-	position: relative;
-  	display: inline-block;
+
+body {
+  background-color: grey;
 }
-.items {
-	  display: none;
+
+.dropdown-content {
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
   z-index: 1;
 }
 
-.drinks:hover .items {
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.Menu:hover .dropdown-content {
   display: block;
 }
 
-.fastfood:hover .items {
-  display: block;
+.dropdown-content a:hover {
+  background-color: red;
 }
-
-.deserts:hover .items {
-  display: block;
-}
-
