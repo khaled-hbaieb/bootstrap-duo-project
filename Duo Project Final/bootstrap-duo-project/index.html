@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="styling.css">
+  	
+  	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  	<script  src='https://code.jquery.com/jquery-2.2.4.js'></script>
+  	<script src="main.js"></script>
+	<title>the restaurant</title>
+</head>
+<body>
+  <div class="navbar">
+  <a id='home' onClick="window.location.reload()">Home</a>
+  <div class="Menu">
+    <button class="dropbtn">Menu
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <p id="scroll1">Entrees</p>
+      <p id="scroll2">Pizzas</p>
+      <p id="scroll3">Sandwiches</p>
+    </div>
+  </div>
+    <div class="Menu">
+    <button class="dropbtn">Drinks
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <p id="scroll4">Drinks</p>
+      <p id="scroll5">Wines</p>
+    </div>
+  </div>
+    <div class="Menu">
+    <button class="dropbtn">Deserts
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      	<p id="scroll6">Cakes</p>
+    	</div>
+  	</div>
+
+  	<div id="checkoutDiv"class="Menu">
+    <button id="checkoutBtn" class="dropbtn">Checkout
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      	<p id="scroll7">Clear Cart</p>
+    	</div>
+  	</div>
+
+	</div>
+	<div id="introduction" display="block">
+	<h1 id="title2"> Welcome to our restaurant </h1>
+	<div id="ourWords">
+		<p class="resume">Our restaurant is one of the finest restaurants in town with our diverse menu and a clean and enjoyable place to eat.</p>
+		<br>
+		<p class="resume">
+		 We have the highest skilled staff to ensure our customer satifaction.</p>
+		<br>
+		 <p class="resume"> With over 30+ years of experience under our belt, you can rest assured that won't regret trying our food.</p>
+		<br>
+		<p class="resume"> We hope that you enjoy your experience here with us !</p>
+	</div>
+	</div>
+<div id=entreesPage>
+	<h1 id="text1" class='texts'>Entrees</h1>
+<div>
+<img src='entreesImages/tomato-soup.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p id="soup" class='name'>Tomato Soup</p>
+   <p class='price'>Price</p>
+    <br>
+   <p class='sum'> $10.95</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Olive oil, Onions, Garlic, Tomatos, Thyme, basil</p></center>
+</div>
+<div>
+  <button id="btn1" class="add" value="10.95"><p class="cart"><i class="fas fa-shopping-cart"><p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+
+
+<div>
+<img src='entreesImages/cordonBleu.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Chicken Cordon Bleu</p>
+   <p class='price'>Price</p>
+    <br>
+   <p class='sum'> $11.95</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Chicken, Swiss Cheese, Ham, Bread Crumbs</p></center>
+ </div>
+  <button id="btn2" class="add" value="11.95"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+
+<div>
+<img src='entreesImages/miso-glazed-salmon-no-watermark.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Miso Glazed Salmon</p>
+   <p class='price'>Price</p>
+    <br>
+   <p class='sum'> $14.95</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Miso, Sake, Soy Sauce, Salmon</p></center>
+ </div>
+  <button id="btn3" class="add" value="14.95"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+
+<div id=pizzaPage>
+ <h1 id="text1" class='texts'>Pizzas</h1>
+<div>
+<img src='entreesImages/DoGrFv9WkAA7yqd.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Seafood Pizza</p>
+   <p class='price'>Price</p>
+    <br>
+   <p class='sum'>$16.95</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Shrimps, Mozzarella, Scallops, Basil, Garlic</p></center>
+</div>
+<div>
+  <button id="btn4" class="add" value="16.95"><p class="cart"><i class="fas fa-shopping-cart"><p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+
+<div>
+<img src='entreesImages/close-up-photo-of-person-holding-pizza-1653877.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Pepperoni Pizza</p>
+   <p class='price'>Price</p>
+    <br>
+   <p class='sum'> $12.95</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Pepperoni, Cheese, Garlic</p></center>
+ </div>
+  <button id="btn5" class="add" value="12.95"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+
+<div>
+<img src='entreesImages/pizzamargherita.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Pizza Marguerita</p>
+   <p class='price'>Price</p>
+    <br>
+   <p class='sum'> $12.95</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Olive Oil, Mozzarella, Basil, Tomatoes</p></center>
+ </div>
+  <button id="btn6" class="add" value="12.95"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+
+
+<div id="sandwichesPage">
+	<h1 id="text1" class='texts'>Sandwiches</h1>
+<div>
+<img src='entreesImages/philly-cheesesteak.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Philly Steak Sandwich</p>
+   <p id="thePrice" class='price'>Price</p>
+    <br>
+   <p class='sum' id= "price" >$9,95</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Lean Beef, Onions, Olive Oil</p></center>
+</div>
+<div>
+  <button id="btn7" class="add" value="9.95"><p class="cart"><i class="fas fa-shopping-cart"><p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+
+<div>
+<img src='entreesImages/Burgers-cropped.png' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Pittsburgh burgers</p>
+   <p class='price'>Price</p>
+    <br>
+   <p class='sum' id="price">$11,95</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Hamburger, Cheese, Onions, pickles, Mayo</p></center>
+ </div>
+  <button id="btn8"  class="add" value="11.95"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+
+<div>
+<img src='entreesImages/all-american-burger-50271412.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>The Ultimate Burger</p>
+   <p class='price'>Price</p>
+   <br>
+   <p class='sum' id="price">$15,95</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Hamburger, Mozzarella, Pickles, Tomatoes, lettuce, Chips, Dippings</p></center>
+ </div>
+  <button id="btn9"  class="add" value="15.95"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+
+
+<div id="drinksPage">
+	<h1 id="text1" class='texts'>Drinks</h1>
+<div>
+<img src='entreesImages/images.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Soda Drink</p>
+   <p id="thePrice" class='price'>Price</p>
+    <br>
+   <p class='sum' id= "price" >$4,95</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Lemon, Carbonated water,corn syrup, fruit juice</p></center>
+</div>
+<div>
+  <button id="btn10"  class="add" value="4.95"><p class="cart"><i class="fas fa-shopping-cart"><p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+<div>
+<img src='entreesImages/01COOKING-MOJITO3-articleLarge.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name' >Mojito</p>
+   <p class='price'>Price</p>
+    <br>
+   <p class='sum' id="price">$7,00</p>
+  <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Lime juice, Rum, soda water,sprig of mint leaves.</p></center>
+ </div>
+  <button id="btn11"  class="add" value="7.00"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+
+<div>
+<img src='entreesImages/Mocha-Oreo-Milkshake-redo-1-1-480x360.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>MilkShake</p>
+   <p class='price'>Price</p>
+   <br>
+   <p class='sum' id="price">$6,25</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Ice Cream, Milk, Chocolate Syrup, Caramel</p></center>
+ </div>
+  <button id="btn12"   class="add" value="6.25"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+
+<div id="winePage">
+	<h1 id="text1" class='texts'>Wines</h1>
+<div>
+<img src='entreesImages/1541726361585.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Red Wines</p>
+   <p id="thePrice" class='price'>Price</p>
+    <br>
+   <p class='sum' id= "price" >$29,50</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Grapes, Sugar, Water, Cane Sugar</p></center>
+</div>
+<div>
+  <button id="btn13"  class="add" value="29.50"><p class="cart"><i class="fas fa-shopping-cart"><p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+<div>
+<img src='entreesImages/images (1).jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>White Wines</p>
+   <p class='price'>Price</p>
+    <br>
+   <p class='sum' id="price">$29,50</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Grapes, Sugar, Water, Cane Sugar</p></center>
+ </div>
+  <button id="btn14" class="add" value="29.50"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+
+<div>
+<img src='entreesImages/Rose-wine-and-older-consumers_wrbm_large.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Rose & Riesling</p>
+   <p class='price'>Price</p>
+   <br>
+   <p class='sum' id="price">$29,50</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Grapes, Sugar, Water, Cane Sugar</p></center>
+ </div>
+  <button id="btn15"  class="add" value="29.50"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+
+<div id="cakesPage">
+	<h1 id="text1" class='texts'>Deserts</h1>
+<div>
+<img src='entreesImages/chocolate-with-milted-chocolate-on-white-ceramic-plate-45202.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Caramel Brownie Lava Cake</p>
+   <p id="thePrice" class='price'>Price</p>
+    <br>
+   <p class='sum' id= "price" >$3,50</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>A decant chocolate brownie and smooth caramel served with vanilla ice cream</p></center>
+</div>
+<div>
+  <button id="btn16"  class="add" value="3.50"><p class="cart"><i class="fas fa-shopping-cart"><p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+<div>
+<img src='entreesImages/recette-tarte-aux-pommes-et-a-lerable-600x450.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>Maple Apple Pie</p>
+   <p class='price'>Price</p>
+    <br>
+   <p class='sum' id="price">$7,50</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>A golden buttery crust filled with maple and cinnamon. Served with vanilla ice cream and english toffee sauce</p></center>
+ </div>
+  <button id="btn17"  class="add" value="7.50"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+
+<div>
+<img src='entreesImages/gluten-free-new-york-cheesecake-1450985-hero-01-dc54f9daf38044238b495c7cefc191fa.jpg' class='dishes'>
+  <div class='entrees'>
+ <h2>
+   <p class='name'>New York Cheesecake</p>
+   <p class='price'>Price</p>
+   <br>
+   <p class='sum' id="price">$6,50</p>
+   <p id="Ingredients">Ingredients</p>
+ </h2><hr>
+ <center><p>Made with Philadelphia cream cheese served in a pool of cherry sauce and whipped cream</p></center>
+ </div>
+  <button id="btn18"  class="add" value="6.50"><p class="cart"><i class="fas fa-shopping-cart"></p></i><p class="cartAdd">Add to cart</p></button>
+</div>
+</div>
+
+<div class="receipt">
+	<div>
+	<button id="receiptBtn"><i class="fas fa-times-circle"></i></button>
+	<center><h3 id="text5">Here's your receipt: </h3><center>
+	<hr>
+	<ul class="listItem">
+	</ul>
+	<div class="totalSum"></div>
+	</div>
+</div>
+<script>
+	$("#entreesPage").hide();
+	$("#pizzaPage").hide();
+	$("#sandwichesPage").hide();
+	$("#drinksPage").hide();
+	$("#winePage").hide();
+	$("#cakesPage").hide();
+	$(".receipt").hide();
+
+
+	$("#scroll1").click(function(){
+		$("#introduction").fadeOut();
+		$("#pizzaPage").fadeOut();
+		$("#sandwichesPage").fadeOut();
+		$("#drinksPage").fadeOut();
+		$("#winePage").fadeOut();
+		$("#cakesPage").fadeOut();
+		$(".receipt").fadeOut();
+
+		$("#entreesPage").fadeIn();
+		$("body").css("background-image", "url('entreesImages/clear-wine-glass-on-table-67468.jpg')");
+	})
+	$("#scroll2").click(function(){
+		$("#introduction").fadeOut();
+		$("#entreesPage").fadeOut();
+		$("#sandwichesPage").fadeOut();
+		$("#drinksPage").fadeOut();
+		$("#winePage").fadeOut();
+		$("#cakesPage").fadeOut();
+		$(".receipt").fadeOut();
+
+		$("#pizzaPage").show();
+		$("body").css("background-image", "url('entreesImages/top-view-photo-of-baked-pizza-2147491.jpg')");
+	})
+
+	$("#scroll3").click(function(){
+		$("#introduction").fadeOut();
+		$("#entreesPage").fadeOut();
+		$("#pizzaPage").fadeOut();
+		$("#drinksPage").fadeOut();
+		$("#winePage").fadeOut();
+		$("#cakesPage").fadeOut();
+		$(".receipt").fadeOut();
+
+		$("#sandwichesPage").fadeIn();
+		$("body").css("background-image", "url('entreesImages/cooked-foods-750073 (1).jpg')");
+	})
+
+	$("#scroll4").click(function(){
+		$("#introduction").fadeOut();
+		$("#entreesPage").fadeOut();
+		$("#pizzaPage").fadeOut();
+		$("#sandwichesPage").fadeOut();
+		$("#winePage").fadeOut();
+		$("#cakesPage").fadeOut();
+		$(".receipt").fadeOut();
+
+		$("#drinksPage").fadeIn();
+		$("body").css("background-image", "url('entreesImages/body.jpg')");
+	})
+
+	$("#scroll5").click(function(){
+		$("#introduction").fadeOut();
+		$("#entreesPage").fadeOut();
+		$("#pizzaPage").fadeOut();
+		$("#sandwichesPage").fadeOut();
+		$("#drinksPage").fadeOut();
+		$("#cakesPage").fadeOut();
+		$(".receipt").fadeOut();
+
+		$("#winePage").fadeIn();
+		$("body").css("background-image", "url('entreesImages/wine.jpg')");
+	})
+
+	$("#scroll6").click(function(){
+		$("#introduction").fadeOut();
+		$("#entreesPage").fadeOut();
+		$("#pizzaPage").fadeOut();
+		$("#sandwichesPage").fadeOut();
+		$("#drinksPage").fadeOut();
+		$("#winePage").fadeOut();
+		$(".receipt").fadeOut();
+
+		$("#cakesPage").fadeIn();
+		$("body").css("background-image", "url('entreesImages/dessert.jpg')");
+	})
+
+	$("#checkoutBtn").click(function(){
+		$("#introduction").hide();
+		$("#entreesPage").hide();
+		$("#pizzaPage").hide();
+		$("#sandwichesPage").hide();
+		$("#drinksPage").hide();
+		$("#winePage").hide();
+		$("#cakesPage").hide();
+		$("body").append($(".receipt"));
+		$(".receipt").fadeIn();
+		$("body").css("background-image", "url('entreesImages/D1007_5_068_1200.jpg')");
+		calcTotal(cart);
+	});
+	$("#receiptBtn").click(function(){
+		$(".receipt").fadeOut();
+		$("#introduction").fadeIn();
+		$("body").css("background-image", "url('images/chair-cutlery-diner-dining-941861.jpg')");
+	})
+	var cart = [];
+	$("#btn1").click(function(){
+		var price = document.getElementById("btn1").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn2").click(function(){
+		var price = document.getElementById("btn2").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn3").click(function(){
+		var price = document.getElementById("btn3").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn4").click(function(){
+		var price = document.getElementById("btn4").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn5").click(function(){
+		var price = document.getElementById("btn5").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn6").click(function(){
+		var price = document.getElementById("btn6").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn7").click(function(){
+		var price = document.getElementById("btn7").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn8").click(function(){
+		var price = document.getElementById("btn8").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn9").click(function(){
+		var price = document.getElementById("btn9").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn10").click(function(){
+		var price = document.getElementById("btn10").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn11").click(function(){
+		var price = document.getElementById("btn11").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+
+	$("#btn12").click(function(){
+		var price = document.getElementById("btn12").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn13").click(function(){
+		var price = document.getElementById("btn13").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn14").click(function(){
+		var price = document.getElementById("btn14").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn15").click(function(){
+		var price = document.getElementById("btn15").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn16").click(function(){
+		var price = document.getElementById("btn16").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+"$</li>");
+	})
+
+	$("#btn17").click(function(){
+		var price = document.getElementById("btn17").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	$("#btn18").click(function(){
+		var price = document.getElementById("btn18").value;
+		cart.push(price);
+		$(".listItem").append("<li>"+price+" $</li>");
+	})
+
+	
+	function calcTotal(array){
+	var total = 0;	
+	$(".totalSum").html("");
+	 for(var i = 0; i< array.length; i++){
+	  total += parseFloat(array[i]);
+	 }
+	  $(".totalSum").append("<hr><p id='totalText'>Your total is: </p><br><h1 id='totalNum' >"+total.toFixed(2)+"$</h1>")	
+	}
+
+	$("#scroll7").click(function(){
+		$(".totalSum").html("");
+		$(".listItem").html("");
+		cart = [];
+	})
+	
+</script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+* {
+	margin: 0;
+	padding: 0;
+  	box-sizing: border-box;
+}
+
+body{
+	background: url("image/wine.jpg") no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+#title2{
+	color: white;
+	font-size: 72px;
+	font-family: Ink Free;
+	text-align: center;
+	margin-top: 10%;
+}
+.navbar {
+  
+  font-family: Ink Free;
+  text-align: center;
+  background-color: brown;
+  position: fixed;
+  top:0;
+  width: 100%
+}
+
+#home {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+}
+
+.Menu {
+  float: left;
+  overflow: hidden;
+  font-color: blue;
+
+}
+
+.Menu .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: Ink Free;
+}
+
+.navbar #home:hover, .Menu:hover .dropbtn {
+  background-color: blue;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.Menu:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: red;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  font-family: Ink Free;
+}
+
+.row {
+	margin-left: 10%;
+  color:white;
+}
+
+.title {
+  font-family: Ink Free;
+	margin-top: 15%;
+	margin-bottom: 5%;
+	font-size: 80px;
+	color:white;
+}
+
+.cart{
+	color:white;
+	font-size: 45px;
+	background-color:#aaa;
+}
+.cartAdd{
+	font-size: 25px;
+	background-color:#aaa;
+}
+
+.add{
+  border: none; 
+  color: white;
+  cursor: pointer;
+  border-radius: 15px; 
+}
+
+.cart1{
+	color:white;
+	font-size: 45px;
+	background-color:#bbb;
+}
+.cartAdd1{
+	font-size: 25px;
+	background-color:#bbb;
+}
+
+.cart2{
+	color:white;
+	font-size: 45px;
+	background-color:#ccc;
+}
+.cartAdd2{
+	font-size: 25px;
+	background-color:#ccc;
+}
